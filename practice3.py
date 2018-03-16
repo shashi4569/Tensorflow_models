@@ -29,4 +29,4 @@ for i in range (1000):
 
 print(sess.run([W, b]))
 # File_Writer = tf.summary.FileWriter('C:/Users/shash/PycharmProjects/Tensorflow_models/graph', sess.graph)
-# print(sess.run(loss, {x:[1,2,3,4], y:[0, -1, -2, -3]}))
+print(sess.run(loss, {x:[1,2,3,4], y:[0, -1, -2, -3]}))
